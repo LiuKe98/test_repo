@@ -34,3 +34,10 @@ git remote add origin git@github.com:LiuKe98/test_repo.git
 git push -u origin maste
 ####之后推送
 git push  origin maste
+###更改远程名字
+git remote -v
+git remote rename origin test.repo
+git remote -v
+###删除远程
+git remote rm names
+git remote -v
