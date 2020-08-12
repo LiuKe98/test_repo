@@ -30,4 +30,7 @@ git rm file.md
 git commit -m 'remove a file'
 ###将本地库推送到github上
 git remote add origin git@github.com:LiuKe98/test_repo.git
+### the first time 推送
 git push -u origin maste
+####之后推送
+git push  origin maste
