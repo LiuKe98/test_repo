@@ -62,4 +62,7 @@ git branch -d dev.name
 ###推送
 git push origin master
 git log --graph --pretty=oneline --abbrev-commit
-
+###将远程同步到本地
+git fetch origin master
+git log -p master origin/master
+git merge origin/master
