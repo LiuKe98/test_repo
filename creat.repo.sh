@@ -64,6 +64,7 @@ git push origin master
 git log --graph --pretty=oneline --abbrev-commit
 ###将远程同步到本地
 git fetch origin master
+git reset --hard origin/master
 git log -p master origin/master
 ##push前先将远程repository修改pull下来
 git merge origin/master
