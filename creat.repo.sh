@@ -68,3 +68,9 @@ git log -p master origin/master
 ##push前先将远程repository修改pull下来
 git merge origin/master
 git pull origin master
+##查看文件权限
+git ls-tree HEAD
+##修改文件权限
+git update-index --chmod=+x file.sh
+git commit -m "revise permission access"
+git push origin master
